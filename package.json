@@ -1,0 +1,23 @@
+{
+  "name": "calcularinvestimento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug:show": "cross-env DEBUG=* npx tsnd --transpile-only --inspect --respawn --ignore-watch node_modules src/index.ts",
+    "debug": "cross-env npx tsnd --transpile-only --inspect --respawn --ignore-watch node_modules src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.34"
+  }
+}
